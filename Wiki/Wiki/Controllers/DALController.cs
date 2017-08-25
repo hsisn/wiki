@@ -16,6 +16,7 @@ namespace Wiki.Controllers
 
         [ValidateInput(false)]
         //CEST UN COMMENTAIRE DE TEST-------------------------------------------------------------------------------------------
+        //ceci est un nouveaux commentaire
         public ActionResult Index(String operation, Article a)
         {
             switch (operation)
