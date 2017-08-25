@@ -75,3 +75,4 @@ C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
