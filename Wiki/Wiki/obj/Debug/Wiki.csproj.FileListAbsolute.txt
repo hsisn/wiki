@@ -73,6 +73,5 @@ C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.Razor.res
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.resources.dll
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
-C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695861\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
