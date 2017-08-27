@@ -115,3 +115,42 @@ C:\Users\e1695760\Desktop\Projet Wiki\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.
 C:\Users\e1695760\Desktop\Projet Wiki\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
 C:\Users\e1695760\Desktop\Projet Wiki\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695760\Desktop\Projet Wiki\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Wiki.dll.config
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Wiki.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Wiki.pdb
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Antlr3.Runtime.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\EntityFramework.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Microsoft.Web.Infrastructure.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Newtonsoft.Json.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Helpers.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Mvc.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Optimization.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Razor.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\WebGrease.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Antlr3.Runtime.pdb
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\EntityFramework.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\Newtonsoft.Json.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Helpers.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Mvc.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Optimization.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.Razor.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.xml
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\EntityFramework.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\EntityFramework.SqlServer.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.Helpers.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.Mvc.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.Optimization.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.Razor.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Deployment.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
+E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
