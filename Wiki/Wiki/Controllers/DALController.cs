@@ -13,6 +13,11 @@ namespace Wiki.Controllers
     public class DALController : Controller
     {
         Articles repo = new Articles();
+        public ActionResult Create()
+        {
+            return PartialView("Create");
+        }
+       
 
         [ValidateInput(false)]
         
