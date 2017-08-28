@@ -97,6 +97,9 @@ namespace Wiki.Models.DAL
         // Auteurs:
         public int Update(Article a)
         {
+
+
+
             return 0;
         }
 
