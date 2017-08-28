@@ -189,6 +189,7 @@
     <Content Include="Views\DAL\Create.cshtml" />
     <Content Include="Views\DAL\Update.cshtml" />
     <Content Include="Views\DAL\Delete.cshtml" />
+    <Content Include="Views\Shared\_TableMatieres.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Home\" />
