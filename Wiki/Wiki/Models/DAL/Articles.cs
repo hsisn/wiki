@@ -22,7 +22,35 @@ namespace Wiki.Models.DAL
         // Auteurs:
         public Article Find(string titre)
         {
-            return null;
+            string cStr = ConfigurationManager.ConnectionStrings["Wiki"].ConnectionString;
+            using (SqlConnection cnx = new SqlConnection(cStr))
+            {
+                string requete = "ChercherArticle";                   // Stored procedures
+                SqlCommand cmd = new SqlCommand(requete, cnx);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("titre",titre));
+                try
+                {
+                    cnx.Open();
+                    SqlDataReader dataReader = cmd.ExecuteReader();
+                    Article t = new Article();
+
+                    while (dataReader.Read())
+                    {
+                        t.Titre = (string)dataReader["Titre"];
+                        t.Contenu = (string)dataReader["Contenu"];
+                        
+                    }
+                    dataReader.Close();
+
+                    return t;
+                }
+                finally
+                {
+                    cnx.Close();
+                }
+            }
+            
         }
 
 
