@@ -154,3 +154,42 @@ E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\bin\fr\System.Web.WebP
 E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
 E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 E:\cours Lahcene\Session 4\Web II\Exo\exo3\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Wiki.dll.config
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Wiki.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Wiki.pdb
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Antlr3.Runtime.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\EntityFramework.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Microsoft.Web.Infrastructure.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Newtonsoft.Json.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Helpers.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Mvc.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Optimization.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Razor.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\WebGrease.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Antlr3.Runtime.pdb
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\EntityFramework.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\Newtonsoft.Json.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Helpers.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Mvc.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Optimization.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.Razor.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.xml
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\EntityFramework.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\EntityFramework.SqlServer.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.Helpers.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.Mvc.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.Optimization.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.Razor.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Deployment.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
+E:\School\6 Automne 2017\WEB II 420-D72-MA\Wiki-GIT\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
