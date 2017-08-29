@@ -60,6 +60,40 @@ namespace Wiki.Controllers
 
             return View(repo.GetArticles());
         }
-     
+
+
+
+
+        //[HttpGet]
+        //public ActionResult Update(int id)
+        //{
+
+        //    return View(repo.Update(id));
+
+        //}
+
+        //[HttpPost]
+        //public ActionResult Update(Article g)
+        //{
+        //    repo.Update(g);
+
+        //    return RedirectToAction("Index", "Home");
+        //}
+
+
+
+        //[HttpGet]
+        //public ActionResult Delete(int id)
+        //{
+        //    return View();
+        //}
+
+        //[HttpPost]
+        //public ActionResult Delete(Article g)
+        //{
+        //    repo.Delete(g);
+        //    return RedirectToAction("Auteur");
+        //}
+
     }
 }
