@@ -1,11 +1,15 @@
 ﻿@model IEnumerable<Wiki.Models.Biz.Article>
+
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Liste des articles</h2>
+<h2>Index</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
 <table class="table">
     <tr>
         <th>
@@ -15,14 +19,15 @@
             @Html.DisplayNameFor(model => model.Contenu)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Revision)
+            @Html.DisplayNameFor(model => model.DateModification)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DateModification)
+            @Html.DisplayNameFor(model => model.Revision)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.IdContributeur)
         </th>
+        <th></th>
     </tr>
 
 @foreach (var item in Model) {
@@ -31,21 +36,27 @@
             @Html.DisplayFor(modelItem => item.Titre)
         </td>
         <td>
-            @item.Contenu.Substring(0, (100 < item.Contenu.Length ? 100 : item.Contenu.Length))
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Revision)
+            @Html.DisplayFor(modelItem => item.Contenu)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DateModification)
         </td>
         <td>
+            @Html.DisplayFor(modelItem => item.Revision)
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.IdContributeur)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
 }
 
 </table>
+
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -65,14 +76,10 @@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" name="operation" value="Find" class="btn btn-default" />
-                <input type="submit" name="operation" value="Update" class="btn btn-default" />
-                <input type="submit" name="operation" value="Add" class="btn btn-default" />
-                <input type="submit" name="operation" value="Delete" class="btn btn-default" />
-                
-                
-            </div>
+             </div>
         </div>
     </div>
+
 }
 
 @{if (ViewBag.Article != null)
@@ -86,3 +93,6 @@
         <span class="control-label col-md-2">IdContributeur: @ViewBag.Article.IdContributeur</span><br />
     }
 }
+
+
+

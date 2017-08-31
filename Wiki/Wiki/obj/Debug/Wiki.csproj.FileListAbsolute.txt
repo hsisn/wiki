@@ -232,3 +232,41 @@ C:\Users\e1695946\Desktop\new\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.re
 C:\Users\e1695946\Desktop\new\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
 C:\Users\e1695946\Desktop\new\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695946\Desktop\new\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Wiki.dll.config
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Wiki.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Wiki.pdb
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Antlr3.Runtime.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\EntityFramework.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Newtonsoft.Json.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Helpers.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Mvc.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Optimization.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Razor.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\WebGrease.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Antlr3.Runtime.pdb
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\EntityFramework.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\EntityFramework.SqlServer.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\Newtonsoft.Json.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Helpers.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Mvc.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Optimization.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.Razor.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\System.Web.WebPages.Razor.xml
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\EntityFramework.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.Razor.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb

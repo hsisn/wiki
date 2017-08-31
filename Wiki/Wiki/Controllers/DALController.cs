@@ -62,13 +62,18 @@ namespace Wiki.Controllers
         }
 
 
+       
+        public ActionResult Update()
+        {
+            return View();
+
+        }
 
 
         //[HttpGet]
-        //public ActionResult Update(int id)
+        //public ActionResult Update(string Titre)
         //{
-
-        //    return View(repo.Update(id));
+        //    return View(repo.Find(Titre));
 
         //}
 

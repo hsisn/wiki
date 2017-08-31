@@ -185,11 +185,11 @@
     <Content Include="Views\Shared\Menu.cshtml" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
-    <Content Include="Views\DAL\Index.cshtml" />
     <Content Include="Views\DAL\Create.cshtml" />
-    <Content Include="Views\DAL\Update.cshtml" />
     <Content Include="Views\DAL\Delete.cshtml" />
     <Content Include="Views\Shared\_TableMatieres.cshtml" />
+    <Content Include="Views\DAL\Update.cshtml" />
+    <Content Include="Views\DAL\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Home\" />
