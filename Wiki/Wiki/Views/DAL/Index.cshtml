@@ -1,15 +1,11 @@
 ﻿@model IEnumerable<Wiki.Models.Biz.Article>
-
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Liste des articles</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -19,44 +15,38 @@
             @Html.DisplayNameFor(model => model.Contenu)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DateModification)
+            @Html.DisplayNameFor(model => model.Revision)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Revision)
+            @Html.DisplayNameFor(model => model.DateModification)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.IdContributeur)
         </th>
-        <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Titre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Contenu)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DateModification)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Revision)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.IdContributeur)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titre)
+            </td>
+            <td>
+                @Html.Raw(@item.Contenu.Substring(0, (100 < item.Contenu.Length ? 100 : item.Contenu.Length)))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Revision)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateModification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdContributeur)
+            </td>
+        </tr>
+    }
 
 </table>
-
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -69,17 +59,21 @@
             @Html.TextBox("Titre")
         </div>
         <div class="form-group">
-            <span class="control-label col-md-2">Contenu</span>
-            @Html.TextBox("Contenu")
+            <span>Contenu</span>
+            @Html.TextArea("Contenu", new { @class = "ckeditor" })
         </div>
         <br />
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" name="operation" value="Find" class="btn btn-default" />
-             </div>
+                <input type="submit" name="operation" value="Update" class="btn btn-default" />
+                <input type="submit" name="operation" value="Add" class="btn btn-default" />
+                <input type="submit" name="operation" value="Delete" class="btn btn-default" />
+
+
+            </div>
         </div>
     </div>
-
 }
 
 @{if (ViewBag.Article != null)
@@ -87,12 +81,10 @@
         <hr />
         <h4>Résultat du Find</h4>
         <span class="control-label col-md-2">Titre: @ViewBag.Article.Titre</span><br />
-        <span class="control-label col-md-2">Contenu: @ViewBag.Article.Contenu</span><br />
-        <span class="control-label col-md-2">Date modification: @ViewBag.Article.DateModification</span><br />
+        <span>Contenu: @Html.Raw(@ViewBag.Article.Contenu)</span><br />
+        @*<span class="control-label col-md-2">Contenu: @Html.Raw(@ViewBag.Article.Contenu)</span><br />*@
+        <span class="control-label col-md-2">Date de modification: @ViewBag.Article.DateModification</span><br />
         <span class="control-label col-md-2">Révision: @ViewBag.Article.Revision</span><br />
         <span class="control-label col-md-2">IdContributeur: @ViewBag.Article.IdContributeur</span><br />
     }
 }
-
-
-
