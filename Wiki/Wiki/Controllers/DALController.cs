@@ -62,28 +62,35 @@ namespace Wiki.Controllers
         }
 
 
-       
-        public ActionResult Update()
+        [HttpGet]
+        public ActionResult Details(string Titre)
         {
-            return View();
+                 return View(repo.Find(Titre));
+        }
+
+
+
+
+
+
+
+
+
+        [HttpGet]
+        public ActionResult Update(string Titre)
+        {
+            return View(repo.Find(Titre));
 
         }
 
 
-        //[HttpGet]
-        //public ActionResult Update(string Titre)
-        //{
-        //    return View(repo.Find(Titre));
+        [HttpPost]
+        public ActionResult Update(Article g)
+        {
+            repo.Update(g);
 
-        //}
-
-        //[HttpPost]
-        //public ActionResult Update(Article g)
-        //{
-        //    repo.Update(g);
-
-        //    return RedirectToAction("Index", "Home");
-        //}
+            return RedirectToAction("Index", "Home");
+        }
 
 
 

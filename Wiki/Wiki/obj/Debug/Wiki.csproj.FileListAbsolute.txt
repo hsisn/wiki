@@ -270,3 +270,4 @@ C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.De
 C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.resources.dll
 C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
