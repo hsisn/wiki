@@ -309,3 +309,4 @@ C:\Users\e1695946\Documents\wiki\Wiki\Wiki\bin\fr\System.Web.WebPages.Razor.reso
 C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
 C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
