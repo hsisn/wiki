@@ -277,6 +277,15 @@ namespace Wiki.Views.Shared {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Invalid username or password!.
+        /// </summary>
+        public static string message_erreur {
+            get {
+                return ResourceManager.GetString("message_erreur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Password.
         /// </summary>
         public static string Password {

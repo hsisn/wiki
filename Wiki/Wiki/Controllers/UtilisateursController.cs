@@ -6,7 +6,10 @@ using System.Web.Security;
 using System.Web.Mvc;
 using Wiki.Models;
 
+
 using Wiki.Models.Biz;
+using Wiki.Helpers;
+
 namespace Wiki.Controllers
 {
     public class UtilisateursController : Controller
@@ -57,21 +60,53 @@ namespace Wiki.Controllers
 
 
                 [HttpPost]
-                public ActionResult Connexion(string username, string password, string
+       public ActionResult Connexion(string login, string passwd, string
         ReturnUrl = "")
                 /* Pour traiter la demande de login */
                 {
          ViewBag.error = "";
          ViewBag.ReturnUrl = ReturnUrl;
-         if (!Utilisateur.Authentifie(username, password))
+         if (!Utilisateur.Authentifie(login, passwd))
          {
-         ViewBag.error = "Nom d'utilisateur ou mot de passe invalide!";
+         ViewBag.error = Views.Shared.SiteResource.message_erreur;
          return View();
             }
          else
          {
-         FormsAuthentication.SetAuthCookie(username, false);
-         if (ReturnUrl == "")
+         FormsAuthentication.SetAuthCookie(login, false);
+
+
+
+
+                //**************************************************
+
+                /*
+                string culture = "fr";
+
+                culture = CultureHelper.GetImplementedCulture(culture);
+
+                // Save culture in a cookie
+                HttpCookie cookie = Request.Cookies["_culture"];
+                if (cookie != null)
+                    cookie.Value = culture;   // update cookie value
+                else
+                {
+
+                    cookie = new HttpCookie("_culture");
+                    cookie.Value = culture;
+                    cookie.Expires = DateTime.Now.AddYears(1);
+                }
+                Response.Cookies.Add(cookie);
+                */
+                //**************************************************
+
+
+
+
+
+
+
+                if (ReturnUrl == "")
          {
          return RedirectToAction("Index", "Home");
         }

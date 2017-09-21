@@ -17,13 +17,13 @@
         <div class="form-group">
             @Html.Label(SiteResource.Username)<br />
             <div class="col-md-10">
-                @Html.TextBox("Username")<br />
+                @Html.TextBox("login")<br />
             </div>
         </div>
         <div class="form-group">
-            <br /> @Html.Label("Password")
+            <br /> @Html.Label(SiteResource.Password)
             <br /><div class="col-md-10">
-                @Html.Password(SiteResource.Password)
+                @Html.Password("passwd")
             </div>
         </div>
         <input type="hidden" name="ReturnUrl" value="@ViewBag.ReturnUrl" />

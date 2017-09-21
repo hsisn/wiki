@@ -219,4 +219,7 @@
   <data name="Choosealanguage" xml:space="preserve">
     <value>Choosealanguage</value>
   </data>
+  <data name="message_erreur" xml:space="preserve">
+    <value>Invalid username or password!</value>
+  </data>
 </root>
