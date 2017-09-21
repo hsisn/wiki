@@ -39,15 +39,16 @@ namespace Wiki.Controllers
                     }
                     ViewBag.Article = a;
                     break;
+                   
                 case "Update":
-                    if (ModelState.IsValid)
+                    if (ModelState.IsValid && User.Identity.IsAuthenticated)
                     {
                         a.IdContributeur = 1;
                         repo.Update(a);
                     }
                     break;
                 case "Add":
-                    if (ModelState.IsValid)
+                    if (ModelState.IsValid && User.Identity.IsAuthenticated)
                     {
                         a.IdContributeur = 1;
                         repo.Add(a);

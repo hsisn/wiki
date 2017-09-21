@@ -1,0 +1,34 @@
+﻿@using Wiki.Views.Shared;
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@SiteResource.Login</h2>
+<div>
+    @if (ViewBag.error != "")
+    {
+        <div class="alert alert-danger" role="alert">
+            <b>@SiteResource.Authentificationerror</b> @ViewBag.error
+        </div>
+    }
+    @using (Html.BeginForm("Connexion", "Utilisateurs"))
+    {
+        <div class="form-group">
+            @Html.Label("Username")<br />
+            <div class="col-md-10">
+                @Html.TextBox("Username")<br />
+            </div>
+        </div>
+        <div class="form-group">
+            <br /> @Html.Label("Password")
+            <br /><div class="col-md-10">
+                @Html.Password("Password")
+            </div>
+        </div>
+        <input type="hidden" name="ReturnUrl" value="@ViewBag.ReturnUrl" />
+            <br />
+            <input type="submit" value=@SiteResource.Login />
+    }
+</div>
+

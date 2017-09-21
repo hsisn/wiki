@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Wiki.Views.Shared;
+<!DOCTYPE html>
 <html>
 <head>
     <script src="~/ckeditor/ckeditor.js"></script>
@@ -14,9 +15,9 @@
     <div class="container">
         <div class="row content">
             <br /><br />
-            <div class="col-sm-3 sidenav">
+            @*<div class="col-sm-3 sidenav">
                 @Html.Partial("_TableMatieres")
-            </div>
+            </div>*@
             <div class="col-sm-9">
                 @RenderBody()
             </div>

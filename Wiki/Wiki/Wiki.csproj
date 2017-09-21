@@ -123,13 +123,25 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DALController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UtilisateursController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Biz\Article.cs" />
     <Compile Include="Models\Biz\PasswordHash.cs" />
+    <Compile Include="Models\Biz\Utilisateur.cs" />
     <Compile Include="Models\DAL\Articles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Shared\SiteResource.fr.Designer.cs">
+      <DependentUpon>SiteResource.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Views\Shared\SiteResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SiteResource.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Wiki.mdf" />
@@ -191,6 +203,10 @@
     <Content Include="Views\Shared\_TableMatieres.cshtml" />
     <Content Include="Views\DAL\Update.cshtml" />
     <Content Include="Views\DAL\Index.cshtml" />
+    <Content Include="Views\Utilisateurs\Connexion.cshtml" />
+    <Content Include="Views\Utilisateurs\Inscription.cshtml" />
+    <Content Include="Views\Utilisateurs\Profil.cshtml" />
+    <Content Include="Views\Utilisateurs\ModifierMdP.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Home\" />
@@ -200,6 +216,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Shared\SiteResource.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SiteResource.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\SiteResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SiteResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

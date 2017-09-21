@@ -310,3 +310,8 @@ C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyR
 C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.dll
 C:\Users\e1695946\Documents\wiki\Wiki\Wiki\obj\Debug\Wiki.pdb
 C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csprojResolveAssemblyReference.cache
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\bin\fr\Wiki.resources.dll
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.Views.Shared.SiteResource.resources
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.Views.Shared.SiteResource.fr.resources
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\Wiki.csproj.GenerateResource.Cache
+C:\Users\nadjib\Desktop\PROJET WIKI\wiki\Wiki\Wiki\obj\Debug\fr\Wiki.resources.dll

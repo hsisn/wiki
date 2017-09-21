@@ -1,10 +1,12 @@
-﻿@model IEnumerable<Wiki.Models.Biz.Article>
+﻿@using Wiki.Views.Shared;
+
+@model IEnumerable<Wiki.Models.Biz.Article>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Liste des articles</h2>
+<h2>@SiteResource.Listofarticles</h2>
 
 <table class="table">
     <tr>
@@ -55,21 +57,26 @@
     <div class="form-horizontal">
 
         <div class="form-group">
-            <span class="control-label col-md-2">Titre</span>
+            <span class="control-label col-md-2">@SiteResource.Title</span>
             @Html.TextBox("Titre")
         </div>
+@if (User.Identity.IsAuthenticated)
+{
         <div class="form-group">
-            <span>Contenu</span>
+            <span>@SiteResource.Contents</span>
             @Html.TextArea("Contenu", new { @class = "ckeditor" })
         </div>
+}
         <br />
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" name="operation" value="Find" class="btn btn-default" />
-                <input type="submit" name="operation" value="Update" class="btn btn-default" />
-                <input type="submit" name="operation" value="Add" class="btn btn-default" />
-                <input type="submit" name="operation" value="Delete" class="btn btn-default" />
+                <input type="submit" name="operation" value=@SiteResource.Find class="btn btn-default" />
+                @if (User.Identity.IsAuthenticated){
+                <input type="submit" name="operation" value=@SiteResource.Update  class="btn btn-default" />
 
+                <input type="submit" name="operation" value=@SiteResource.Add class="btn btn-default" />
+                <input type="submit" name="operation" value=@SiteResource.Delete class="btn btn-default" />
+                }
 
             </div>
         </div>
@@ -79,12 +86,12 @@
 @{if (ViewBag.Article != null)
     {
         <hr />
-        <h4>Résultat du Find</h4>
-        <span class="control-label col-md-2">Titre: @ViewBag.Article.Titre</span><br />
-        <span>Contenu: @Html.Raw(@ViewBag.Article.Contenu)</span><br />
+        <h4>@SiteResource.ResultofFind</h4>
+        <span class="control-label col-md-2">@SiteResource.Title: @ViewBag.Article.Titre</span><br />
+        <span>@SiteResource.Contents: @Html.Raw(@ViewBag.Article.Contenu)</span><br />
         @*<span class="control-label col-md-2">Contenu: @Html.Raw(@ViewBag.Article.Contenu)</span><br />*@
-        <span class="control-label col-md-2">Date de modification: @ViewBag.Article.DateModification</span><br />
-        <span class="control-label col-md-2">Révision: @ViewBag.Article.Revision</span><br />
-        <span class="control-label col-md-2">IdContributeur: @ViewBag.Article.IdContributeur</span><br />
+        <span class="control-label col-md-2">Changement Date: @ViewBag.Article.DateModification</span><br />
+        <span class="control-label col-md-2">Revision: @ViewBag.Article.Revision</span><br />
+        <span class="control-label col-md-2">IdContributor: @ViewBag.Article.IdContributeur</span><br />
     }
 }
