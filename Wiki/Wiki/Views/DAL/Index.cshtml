@@ -8,6 +8,7 @@
 @{
     ViewBag.Title = SiteResource.Choosealanguage;
     var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
+   
 }
 
 @helper selected(string c, string culture)
@@ -19,7 +20,7 @@ if (c == culture)
 }
 @using (Html.BeginForm("SetCulture", "DAL"))
 {
-<fieldset>
+<fieldset onchange="this.form.submit()">
     <legend>@SiteResource.Choosealanguage</legend>
 
     <div class="control-group">
@@ -40,15 +41,18 @@ if (c == culture)
 
     <div class="control-group">
         <div class="controls">
-            <label for="fr-CA">
-                <input name="culture" id="fr-CA" value="fr-CA" type="radio" @selected("fr-CA", culture) /> Francais      
+            <label for="fr">
+                <input name="culture" id="fr" value="fr" type="radio" @selected("fr", culture) /> Francais      
              </label>
         </div>
     </div>
 
+
+
     
 
 </fieldset>
+    
 }
 <h2>@SiteResource.Listofarticles</h2>
 

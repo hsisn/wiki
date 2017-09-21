@@ -16,7 +16,7 @@ namespace Wiki.Helpers
             "en",  // first culture is the DEFAULT
             "es", // Spanish NEUTRAL culture
             //"ar"  // Arabic NEUTRAL culture
-            "fr-CA", // Francais Canada culture
+            "fr", // Francais Canada culture
            
         };
 
