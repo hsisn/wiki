@@ -75,15 +75,37 @@ namespace Wiki.Controllers
          {
          FormsAuthentication.SetAuthCookie(login, false);
 
+                string cStr = System.Configuration.ConfigurationManager.ConnectionStrings["Wiki"].ConnectionString;
 
 
-
-                //**************************************************
-
-                /*
                 string culture = "fr";
 
-                culture = CultureHelper.GetImplementedCulture(culture);
+                using (System.Data.SqlClient.SqlConnection cnx = new System.Data.SqlClient.SqlConnection(cStr))
+                {
+                    string requete = "SELECT Langue FROM Utilisateurs WHERE Courriel = '" + login + "'";
+                    System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand(requete, cnx);
+                    cmd.CommandType = System.Data.CommandType.Text;
+                    try
+                    {
+                        cnx.Open();
+                        System.Data.SqlClient.SqlDataReader dataReader = cmd.ExecuteReader();
+                        if (!dataReader.HasRows)
+                        {
+                            dataReader.Close();
+                        }
+                        dataReader.Read();
+                        culture = (string)dataReader["Langue"];
+                    }
+                    finally
+                    {
+                        cnx.Close();
+                    }
+
+                }
+
+               
+
+                //culture = CultureHelper.GetImplementedCulture(culture);
 
                 // Save culture in a cookie
                 HttpCookie cookie = Request.Cookies["_culture"];
@@ -97,11 +119,6 @@ namespace Wiki.Controllers
                     cookie.Expires = DateTime.Now.AddYears(1);
                 }
                 Response.Cookies.Add(cookie);
-                */
-                //**************************************************
-
-
-
 
 
 
