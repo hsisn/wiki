@@ -5,7 +5,51 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{
+    ViewBag.Title = SiteResource.Choosealanguage;
+    var culture = System.Threading.Thread.CurrentThread.CurrentUICulture.Name.ToLowerInvariant();
+}
 
+@helper selected(string c, string culture)
+{
+if (c == culture)
+{
+        @:checked="checked"
+    }
+}
+@using (Html.BeginForm("SetCulture", "DAL"))
+{
+<fieldset>
+    <legend>@SiteResource.Choosealanguage</legend>
+
+    <div class="control-group">
+        <div class="controls">
+            <label for="en">
+                <input name="culture" id="en" value="en" type="radio" @selected("en", culture) /> English
+            </label>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <div class="controls">
+            <label for="es">
+                <input name="culture" id="es" value="es" type="radio" @selected("es", culture) /> Español
+            </label>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <div class="controls">
+            <label for="fr-CA">
+                <input name="culture" id="fr-CA" value="fr-CA" type="radio" @selected("fr-CA", culture) /> Francais      
+             </label>
+        </div>
+    </div>
+
+    
+
+</fieldset>
+}
 <h2>@SiteResource.Listofarticles</h2>
 
 <table class="table">
