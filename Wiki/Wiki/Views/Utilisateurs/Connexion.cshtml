@@ -15,7 +15,7 @@
     @using (Html.BeginForm("Connexion", "Utilisateurs"))
     {
         <div class="form-group">
-            @Html.Label("Username")<br />
+            @Html.Label(SiteResource.Username)<br />
             <div class="col-md-10">
                 @Html.TextBox("Username")<br />
             </div>
@@ -23,7 +23,7 @@
         <div class="form-group">
             <br /> @Html.Label("Password")
             <br /><div class="col-md-10">
-                @Html.Password("Password")
+                @Html.Password(SiteResource.Password)
             </div>
         </div>
         <input type="hidden" name="ReturnUrl" value="@ViewBag.ReturnUrl" />
