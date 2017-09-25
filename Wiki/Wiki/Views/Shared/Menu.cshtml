@@ -1,4 +1,5 @@
-﻿<div class="navbar navbar-inverse navbar-fixed-top">
+﻿@using Wiki.Views.Shared;
+<div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -10,17 +11,37 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+                <li>@Html.ActionLink(SiteResource.Home, "Index", "Home")</li>
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <li>@Html.ActionLink("Profil", "Profil", "Utilisateurs")  <text>&nbsp; &nbsp;</text></li>
-                    <li>@Html.ActionLink("Deconnexion", "Deconnexion", "Utilisateurs")</li>
+                    <li>@Html.ActionLink(SiteResource.Profile, "Profil", "Utilisateurs")  <text>&nbsp; &nbsp;</text></li>
+                    <li>@Html.ActionLink(SiteResource.Logout, "Deconnexion", "Utilisateurs")</li>
+                    <li></li>
+                    <li>
+                        @Html.ActionLink(SiteResource.Hello + " " +User.Identity.Name + "!", "Profil", "Utilisateurs", routeValues: null, htmlAttributes: new { title = "Administrer" })
+                                         
+                       </li>
                 }
                 else
                 {
-                    <li>@Html.ActionLink("Inscription", "Inscription", "Utilisateurs")   <text>&nbsp; &nbsp;</text></li>
-                    <li>@Html.ActionLink("Connexion", "Connexion", "Utilisateurs")</li>
+<li>@Html.ActionLink(SiteResource.Registration, "Inscription", "Utilisateurs")   <text>&nbsp; &nbsp;</text></li>
+                    <li>@Html.ActionLink(SiteResource.Login, "Connexion", "Utilisateurs")</li>
                 }
-            </ul>
+                
+@*<li>  @Html.Display(SiteResource.Choosealanguage ) </li>
+                
+<li>
+
+  @Html.DropDownList("Langue", new List<SelectListItem>
+ {
+           new SelectListItem{Text="français", Value="1"},
+           new SelectListItem{Text="anglais", Value="2"},
+           new SelectListItem{Text="espagnol", Value="3"},
+ 
+ })
+
+                </li>*@
+</ul>
         </div>
     </div>
 </div>
