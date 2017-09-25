@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using Wiki.Models.DAL;
 using Wiki.Models.Biz;
-using Wiki.Helpers;
+
 namespace Wiki.Controllers
 {
     public class DALController : Controller
@@ -20,11 +20,7 @@ namespace Wiki.Controllers
             return PartialView("Create");
         }
        
-<<<<<<< HEAD
         //test master
-=======
-        // test 1
->>>>>>> origin/nadjib
         [ValidateInput(false)]
         
         public ActionResult Index(String operation, Article a)
@@ -43,16 +39,15 @@ namespace Wiki.Controllers
                     }
                     ViewBag.Article = a;
                     break;
-                   
                 case "Update":
-                    if (ModelState.IsValid && User.Identity.IsAuthenticated)
+                    if (ModelState.IsValid)
                     {
                         a.IdContributeur = 1;
                         repo.Update(a);
                     }
                     break;
                 case "Add":
-                    if (ModelState.IsValid && User.Identity.IsAuthenticated)
+                    if (ModelState.IsValid)
                     {
                         a.IdContributeur = 1;
                         repo.Add(a);
@@ -72,34 +67,8 @@ namespace Wiki.Controllers
         {
                  return View(repo.Find(Titre));
         }
-        [HttpPost]
-        public ActionResult SetCulture(string culture)
-        {
-            // Validate input
-            culture = CultureHelper.GetImplementedCulture(culture);
 
-            // Save culture in a cookie
-            HttpCookie cookie = Request.Cookies["_culture"];
-            if (cookie != null)
-                cookie.Value = culture;   // update cookie value
-            else
-            {
 
-                cookie = new HttpCookie("_culture");
-                cookie.Value = culture;
-                cookie.Expires = DateTime.Now.AddYears(1);
-            }
-            Response.Cookies.Add(cookie);
-
-<<<<<<< HEAD
-=======
-            return RedirectToAction("Index");
-        }
-        //[HttpGet]
-        //public ActionResult Update(string Titre)
-        //{
-        //    return View(repo.Find(Titre));
->>>>>>> origin/nadjib
 
 
 
